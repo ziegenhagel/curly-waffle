@@ -533,10 +533,6 @@ video {
   width: 100%;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -551,16 +547,6 @@ video {
 
 .border-b {
   border-bottom-width: 1px;
-}
-
-.bg-red-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .px-2 {
@@ -587,7 +573,7 @@ video {
 }
 
 #game {
-  margin: 100px auto;
+  margin: 20px auto;
   width: 1100px;
 }
 

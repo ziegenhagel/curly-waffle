@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 #game {
-    margin: 100px auto;
+    margin: 20px auto;
     width: 1100px;
 }
