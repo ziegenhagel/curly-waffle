@@ -1,16 +1,10 @@
 <template>
-  <!-- have a wrapper, bcuz template only may have one child -->
   <div id="game">
-    <h1>Mützerath</h1>
+    <h1 class="text-3xl pb-3 mb-3 border-b">Mützerath</h1>
     <NavStatus/>
-    <NavMap/>
-    <NavMenu/>
+    <div class="flex">
+      <NavMap />
+      <NavMenu class="w-40"/>
+    </div>
   </div>
 </template>
-
-<style scoped>
-#game {
-  margin: 100px auto;
-  width: 1100px;
-}
-</style>
