@@ -1,10 +1,11 @@
 export const useVillage = () => {
-return useState('village', () => ({
+    return useState('village', () => ({
         name: 'Mützerath',
+        key: null,
         villagers: {
-            baseCapacity : 10,
+            baseCapacity: 10,
             capacity: 10,
-            total: 10,
+            total: 20,
             free: 10,
             support: 0,
             builders: 0

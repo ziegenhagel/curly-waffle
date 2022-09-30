@@ -1,5 +1,5 @@
 <template>
-  <img src="map.jpg" alt="Spielfeld Bild">
+  <img src="/img/map.jpg" alt="Spielfeld Bild">
 </template>
 
 <style scoped>
